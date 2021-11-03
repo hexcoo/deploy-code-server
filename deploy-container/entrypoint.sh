@@ -7,6 +7,7 @@ PREFIX="deploy-code-server"
 mkdir -p $START_DIR
 
 export RCLONE_DATA="123"
+export RCLONE_VSCODE_TASKS="true"
 
 # function to clone the git repo or add a user's first file if no repo was specified.
 project_init () {
