@@ -97,7 +97,7 @@ if [ -n "$DOTFILES_REPO" ]; then
     # run install script, if it exists
     [ -f "$HOME/dotfiles/install.sh" ] && $HOME/dotfiles/install.sh
 fi
-
+#test new 
 echo "[$PREFIX] Starting code-server..."
 # Now we can run code-server with the default entrypoint
 /usr/bin/entrypoint.sh --bind-addr 0.0.0.0:8080 --auth none $START_DIR
