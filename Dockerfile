@@ -27,8 +27,8 @@ RUN sudo chown -R coder:coder /home/coder/.local
 # RUN code-server --install-extension esbenp.prettier-vscode
 
 # Install apt packages:
-RUN sudo apt-get install -y python3-pip crond
-
+RUN sudo apt-get install -y python3-pip 
+RUN sudo apt-get install -y crond
 # Copy files: 
 # COPY deploy-container/myTool /home/coder/myTool
 
